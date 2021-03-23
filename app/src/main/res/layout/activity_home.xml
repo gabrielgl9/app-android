@@ -11,40 +11,52 @@
         android:id="@+id/welcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="83dp"
+        android:layout_marginLeft="83dp"
+        android:layout_marginTop="73dp"
         android:text="Welcome"
         android:textColor="#FFFFFF"
         android:textSize="36sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="83dp"
-        tools:layout_editor_absoluteY="73dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/nameWelcome"
         android:layout_width="201dp"
         android:layout_height="33dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginLeft="83dp"
+        android:layout_marginTop="148dp"
         android:editable="true"
         android:enabled="true"
         android:text="Gabriel"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
-        tools:layout_editor_absoluteX="83dp"
-        tools:layout_editor_absoluteY="148dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/splashScreenButton"
         android:layout_width="248dp"
         android:layout_height="52dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="298dp"
         android:text="Splash Screen"
         app:backgroundTint="#3F51B5"
-        tools:layout_editor_absoluteX="84dp"
-        tools:layout_editor_absoluteY="298dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/loginRedirect"
         android:layout_width="248dp"
         android:layout_height="52dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="391dp"
         android:text="Login"
         app:backgroundTint="#3F51B5"
-        tools:layout_editor_absoluteX="81dp"
-        tools:layout_editor_absoluteY="391dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
